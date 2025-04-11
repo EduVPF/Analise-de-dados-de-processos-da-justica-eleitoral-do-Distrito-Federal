@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"type": "shell",
+		"label": "Compilar TP01 (main + processo)",
+		"command": "gcc",
+		"args": [
+		  "main.c",
+		  "processo.c",
+		  "-o",
+		  "tp01.exe"
+		],
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		},
+		"problemMatcher": ["$gcc"],
+		"detail": "Compila o projeto TP01 com todos os arquivos necessários"
+	  }
+	]
+  }
+  
